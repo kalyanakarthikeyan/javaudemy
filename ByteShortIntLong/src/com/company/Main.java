@@ -27,7 +27,22 @@ public class Main {
         System.out.println("min value is "+ myMinLongValue);
         System.out.println("max value is "+myMaxLongValue);
 
-        
+        int intCast = (myMinIntValue/2);
+        System.out.println(intCast);
+
+        byte byteCast = (byte)(myMinByteValue/2);
+        System.out.println(byteCast);
+
+        short shortCast =(short) (myMinShortValue/2);
+        System.out.println(shortCast);
+
+        //challenge
+        int intVariable = 1000000;
+        byte byteVariable = 126;
+        short shortVariable = 30000;
+
+        long longVaribale = (50000 + 10* (intVariable+byteVariable+shortVariable));
+        System.out.println("challenge answer is "+longVaribale);
 
     }
 }
